@@ -34,3 +34,28 @@
     background:rgba(255, 255, 255, 0.39);
     
 }
+@media(max-width:1096px){
+    .card{
+        width:30%;
+    }
+    .image_container{
+        width:80px;
+        height:80px;
+    }
+    .image_container svg{
+        width:40px !important;
+        height:40px !important;
+    }
+
+    #card_title{
+        font-size:14px;
+    }
+    #card_description{
+
+        font-size:12px;
+    }
+}
+
+@media(max-width:741px){
+    
+}
