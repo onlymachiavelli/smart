@@ -12,7 +12,7 @@ export default function Home() {
     <main id="home">
       <Head>
         <meta name="Smart Perfumes" content="Perfumes" />
-        <title>Smart</title>
+        <title>Smart Perfumes (Test Mode !)</title>
       </Head>
       <Navbar/>
       <SLD/>
