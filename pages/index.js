@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main id="home">
       <Head>
-        <meta name="Smart Perfumes" content="Perfumes" />
+        <meta name="Smart Perfumes" content="Selling Perfumes" />
         <title>Smart Perfumes (Test Mode !)</title>
       </Head>
       <Navbar/>
