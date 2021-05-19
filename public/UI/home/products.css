@@ -1,0 +1,11 @@
+.prod_container{
+    width:100%;
+    height:auto;
+}
+.prod_serie{
+    width:100%;
+    height:auto;
+    display: flex;
+    text-align:center;
+    margin:auto;
+}
