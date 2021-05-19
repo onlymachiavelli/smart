@@ -57,5 +57,18 @@
 }
 
 @media(max-width:741px){
-    
+    .cards_container{
+        display: block !important;
+        padding-top:0px !important;
+        
+    }
+    .card{
+        margin:auto;
+        width:100% !important;
+        margin-top:60px;
+    }
+    #card_description{
+        width:80%;
+        margin:auto;
+    }
 }
