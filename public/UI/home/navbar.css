@@ -7,7 +7,7 @@
 .res_btn{visibility: hidden;width: 1px; overflow: hidden;}
 @media(max-width:1036px){
     .navbar{display:block;top:0; height:auto;padding-top:5px;padding-bottom:1px;}
-    .nav{display:none ;height:auto;padding-top:5px;padding-bottom:20px;position:absolute;z-index:1;}
+    .nav{display:none ;height:auto;padding-top:5px;padding-bottom:20px;position:absolute;z-index:1;background:#111;margin:auto !important;width:100%;}
     .nav a{display:block;}
     .nv_right{margin-right:0px !important;}
     .res_btn{visibility: visible;width: auto; overflow: auto;}
