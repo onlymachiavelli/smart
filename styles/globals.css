@@ -15,17 +15,17 @@ html, body{margin:0;padding: 0;background:#111;}
 /*Importing Fonts*/
 @font-face {
     font-family: 'greatvibes';
-    src: url("/public/fonts/GV/GreatVibes-Regular.ttf");
+    src: url("../public/fonts/GV/GreatVibes-Regular.ttf");
 
 }
 
 @font-face{
     font-family: 'dm';
-    src:url('/public/fonts/DM/DMSans-Regular.ttf');
+    src:url('../public/fonts/DM/DMSans-Regular.ttf');
 }
 @font-face{
     font-family: 'dmbold';
-    src: url('/public/fonts/DM/DMSans-Bold.ttf');
+    src: url('../public/fonts/DM/DMSans-Bold.ttf');
 }
 
 
