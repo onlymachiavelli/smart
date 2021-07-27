@@ -1,45 +1,53 @@
-:root{
-    --GB : 'greatvibes';
-    --DM : 'dm';
-    --DMB : 'dmbold';
+:root {
+  --GB: "greatvibes";
+  --DM: "dm";
+  --DMB: "dmbold";
 }
-html, body{margin:0;padding: 0;background:#111;}
-*{outline:0 !important;text-decoration:none;font-family: var(--DMB);}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+}
+* {
+  outline: 0 !important;
+  text-decoration: none;
+  font-family: var(--DMB);
+}
 
 /*Importing CSS Files*/
-@import '../public/UI//home/navbar.css';
-@import '../public/UI//home/slide.css';
-@import '../public/UI/home/cards.css';
-@import '../public/UI/home/products.css';
+@import "./../public/UI/home/navbar.css";
+
+@import "./../public/UI//home/slide.css";
+@import "./../public/UI/home/cards.css";
+@import "./../public/UI/home/products.css";
 
 /*Importing Fonts*/
 @font-face {
-    font-family: 'greatvibes';
-    src: url("../public/fonts/GV/GreatVibes-Regular.ttf");
-
+  font-family: "greatvibes";
+  src: url("./../public/fonts/GV/GreatVibes-Regular.ttf");
 }
 
-@font-face{
-    font-family: 'dm';
-    src:url('../public/fonts/DM/DMSans-Regular.ttf');
+@font-face {
+  font-family: "dm";
+  src: url("./../public/fonts/DM/DMSans-Regular.ttf");
 }
-@font-face{
-    font-family: 'dmbold';
-    src: url('../public/fonts/DM/DMSans-Bold.ttf');
+@font-face {
+  font-family: "dmbold";
+  src: url("./../public/fonts/DM/DMSans-Bold.ttf");
 }
-
 
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-      background:#fff;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(94, 93, 93);
-  }
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(94, 93, 93);
+}
