@@ -1,6 +1,6 @@
 import React, {useState} from  'react'
 import Link from 'next/link'
-import {Search, Shop , Bars} from '../icons'
+import {Search, Shop , Bars} from './../icons'
 const Navbar = () =>{
     const [Res, setRes] = useState("none")
     const Navigation = () => {
